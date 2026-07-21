@@ -27,9 +27,9 @@ print(D)
 
 
 #Integer division with float and int will give int displayed as float value
-M,N=10,3
+M,N=1.5,3
 R=M//N
-print(R, M/N)
+print(R)
 
 #Floor gives closest integer, which is lesser  than or equal to the float value
 #Result of (A//B) is same as floor (A/B)
