@@ -22,3 +22,16 @@ print(x!=y)#not equal to
 p = 10
 p += 5 #p = p + 5, -5, *5, /5, %5, **5
 print(p)
+
+#logical operator
+a, b, c = True, False, True
+if  a and c:
+    print("both a and c are True (AND condition).")
+if b or c:
+    print("Either b or c is True (OR condition).")
+if not b:
+    print("b is False (NOT condition).")
+
+
+    
+
